@@ -5,7 +5,7 @@ from function.PrintLog import PrintMethod
 
 """
 cron: 10 6-23/1 * * *
-new Env('入会有礼');
+new Env('关注有礼');
 export N_jd_drawShopGift_shopUrl="" # 店铺链接
 export N_jd_drawShopGift_TaskPin="" # 指定运行Pin (不写默认全部)
 export N_jd_drawShopGift_Container="" # 容器

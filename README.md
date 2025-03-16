@@ -11,7 +11,7 @@
 ### 使用前配置
 1. **框架授权**：
    - 请先联系开发者获取框架授权 Token，并配置 `N_Frame_Token` 变量填写授权。
-   - **注意**：Token 首次执行时会自动绑定设备和 IP。若执行环境变更（如更换设备或 IP），需自行到群聊重置：[NaiScan Telegram 群](https://t.me/NaiScan)。
+   - **注意**：Token 首次执行时会自动绑定设备和 IP。若执行环境变更（如更换设备或 IP），需自行到群聊重置：[Telegram](https://t.me/NaiScan)。
 
 ### 环境变量
 2. **环境变量配置**：

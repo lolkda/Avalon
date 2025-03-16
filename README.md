@@ -1,8 +1,8 @@
 ## 特性
 
-纯异步架构：基于 Python 的 asyncio 实现。
-高性能并发：轻松处理数千个并发任务，适合高并发场景。
-跨平台：支持 Windows、macOS 和 Linux。
+1. **纯异步架构**：基于 Python 的 asyncio 实现。
+2. **高性能并发**：轻松处理数千个并发任务，适合高并发场景。
+3. **跨平台**：支持 Windows、macOS 和 Linux。
 
 ---
 

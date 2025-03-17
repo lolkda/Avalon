@@ -23,11 +23,11 @@
 3. **多容器支持**：
    - 必须配置以下 `openApi` 开头的变量以启用多容器功能：
      ```bash
-     openApi_xxx_isOpen=""  # 启用容器（设置为 "true" 启用 或 "false" 关闭）。
-     openApi_xxx_Name=""    # 容器名称。
-     openApi_xxx_Host=""    # 容器链接，例如：http://192.168.1.100:5100。
-     openApi_xxx_User=""    # 容器 Client ID。
-     openApi_xxx_Password="" # 容器 Client Secret。
+     export openApi_xxx_isOpen=""  # 启用容器（设置为 "true" 启用 或 "false" 关闭）。
+     export openApi_xxx_Name=""    # 容器名称。
+     export openApi_xxx_Host=""    # 容器链接，例如：http://192.168.1.100:5100。
+     export openApi_xxx_User=""    # 容器 Client ID。
+     export openApi_xxx_Password="" # 容器 Client Secret。
      ```
    - **多容器使用**：
      - 将 `xxx` 替换为任意名称以缓存容器 Token。

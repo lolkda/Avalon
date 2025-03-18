@@ -5,19 +5,18 @@ from function.PrintLog import PrintMethod
 
 """
 cron: 10 6-23/1 * * *
-new Env('店铺刮刮乐');
-export N_jd_whxsign_shopUrl="" # 活动url
-export N_jd_whxsign_TaskPin="" # 指定运行Pin (不写默认全部)
-export N_jd_whxsign_Container="" # 容器
-export N_jd_whxsign_Thread="" # 并发的线程数
-export N_jd_whxsign_Black="" # 黑的Cookie
+new Env('店铺签到');
+export N_jd_shopSign_Id="" # 活动Id (F8C76481718FA814000365AB85B29892:1000092984:13117366)
+export N_jd_shopSign_TaskPin="" # 指定运行Pin (只能10个)
+export N_jd_shopSign_Container="" # 容器
+export N_jd_shopSign_Wait="" # 是否等待 (0:不等待 大于0则是等待秒数)
 """
 
-script_path = path.join(path.dirname(__file__), "script", "n_jd_task_conc_whxsign.so")
+script_path = path.join(path.dirname(__file__), "script", "n_jd_task_conc_shopSign.py")
 
 if not path.exists(script_path):
-    PrintMethod.error("请检查脚本是否存在")
+    PrintMethod().error("请检查脚本是否存在")
 
-Task = importlib.import_module("script.n_jd_task_conc_whxsign")
+Task = importlib.import_module("script.n_jd_task_conc_shopSign")
 
 asyncio.run(Task.main())

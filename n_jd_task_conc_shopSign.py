@@ -12,7 +12,7 @@ export N_jd_shopSign_Container="" # 容器
 export N_jd_shopSign_Wait="" # 是否等待 (0:不等待 大于0则是等待秒数)
 """
 
-script_path = path.join(path.dirname(__file__), "script", "n_jd_task_conc_shopSign.py")
+script_path = path.join(path.dirname(__file__), "script", "n_jd_task_conc_shopSign.so")
 
 if not path.exists(script_path):
     PrintMethod().error("请检查脚本是否存在")

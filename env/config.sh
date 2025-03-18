@@ -158,7 +158,7 @@ export N_jd_drawShopGift_Black="" # 黑的Cookie
 export N_jd_shopSign_Id="" # 活动Id
 export N_jd_shopSign_TaskPin="" # 指定运行Pin
 export N_jd_shopSign_Container="JD" # 容器
-export N_jd_shopSign_Thread="" # 并发线程数
+export N_jd_shopSign_Wait="0" # 是否等待 (0不等待, 大于0则是等待秒数)
 
 # 新农场助力
 export N_jd_Farm_HelpPin="" # 被助力pin
@@ -167,6 +167,13 @@ export N_jd_Farm_HelpCookie="" # 被助力Cookie
 export N_jd_Farm_Container="JD" # 容器
 export N_jd_Farm_Black="" # 黑的Cookie
 export N_jd_Farm_Num="" # 助力人数
+
+# 刮刮乐
+export N_jd_whxsign_shopUrl="https://shop.m.jd.com/shop/lottery?shopId=10427934&venderId=10649857" # 活动url
+export N_jd_whxsign_TaskPin="" # 指定运行Pin (不写默认全部)
+export N_jd_whxsign_Container="JD" # 容器
+export N_jd_whxsign_Thread="10" # 并发的线程数
+export N_jd_whxsign_Black="" # 黑的Cookie
 
 # 秒杀签到
 export N_jd_signBeanAct_Container="JD" # 容器

@@ -8,6 +8,7 @@ cron: 10 6-23/1 * * *
 new Env('店铺刮刮乐');
 export N_jd_whxsign_shopUrl="" # 活动url
 export N_jd_whxsign_TaskPin="" # 指定运行Pin (不写默认全部)
+export N_jd_whxsign_TaskCookie="" # 指定运行Cookie
 export N_jd_whxsign_Container="" # 容器
 export N_jd_whxsign_Thread="" # 并发的线程数
 export N_jd_whxsign_Black="" # 黑的Cookie

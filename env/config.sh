@@ -134,46 +134,69 @@ export N_jd_Happy_HelpType="jdapp"  # 京东：Bn1VWXtvgTv5ewPoMR-X8A  特价：
 export N_jd_InviteFission_HelpPin="" # 被助力pin
 export N_jd_InviteFission_HelpCommand="" # 被助力口令
 export N_jd_InviteFission_HelpCookie="" # 被助力Cookie
-export N_jd_InviteFission_Container="JD" # 容器
-export N_jd_InviteFission_Thread="15" # 并发线程数
+export N_jd_InviteFission_Container="JD|Scan" # 容器
+export N_jd_InviteFission_Thread="1" # 并发线程数
 export N_jd_InviteFission_Black="" # 黑的Cookie
-export N_jd_InviteFission_Num="15" # 助力人数
+export N_jd_InviteFission_Num="100" # 助力人数
+export N_jd_InviteFission_Wait="0" # 间隔时间
 
 # 入会有礼
 export N_jd_openCard_shopUrl="" # 店铺链接
 export N_jd_openCard_Min="1" # 最少多少奖励入会 (默认50)
 export N_jd_openCard_TaskPin="" # 指定运行Pin (不写默认全部)
-export N_jd_openCard_Container="JD" # 容器
+export N_jd_openCard_TaskCookie="" # 指定运行Cookie
+export N_jd_openCard_Container="JD|Scan" # 容器
 export N_jd_openCard_Thread="20" # 并发线程数
 export N_jd_openCard_Black="" # 黑的Cookie
+export N_jd_openCard_Wait="0" # 间隔时间
 
 # 关注有礼
 export N_jd_drawShopGift_shopUrl="" # 店铺链接
 export N_jd_drawShopGift_TaskPin="" # 指定运行Pin (不写默认全部)
-export N_jd_drawShopGift_Container="JD" # 容器
-export N_jd_drawShopGift_Thread="20" # 并发线程数
+export N_jd_drawShopGift_TaskCookie="" # 指定运行Cookie
+export N_jd_drawShopGift_Container="" # 容器
+export N_jd_drawShopGift_Thread="" # 并发线程数
+export N_jd_drawShopGift_Wait="" # 间隔时间
 export N_jd_drawShopGift_Black="" # 黑的Cookie
 
 # 店铺签到
 export N_jd_shopSign_Id="" # 活动Id
 export N_jd_shopSign_TaskPin="" # 指定运行Pin
-export N_jd_shopSign_Container="JD" # 容器
-export N_jd_shopSign_Wait="0" # 是否等待 (0不等待, 大于0则是等待秒数)
+export N_jd_shopSign_Container="JD|Scan" # 容器
+export N_jd_shopSign_Wait="1" # 间隔时间
 
 # 新农场助力
 export N_jd_Farm_HelpPin="" # 被助力pin
-export N_jd_Farm_HelpCommand="" # 被助力口令
+export N_jd_Farm_HelpCommand="18:/！U0ti92dJnL！ ZH1997 ，↴Jℹ️ng◚諌参与东东农场种树，爆款低至0.01元" # 被助力口令
 export N_jd_Farm_HelpCookie="" # 被助力Cookie
-export N_jd_Farm_Container="JD" # 容器
+export N_jd_Farm_Container="JD|Scan" # 容器
 export N_jd_Farm_Black="" # 黑的Cookie
 export N_jd_Farm_Num="" # 助力人数
 
 # 刮刮乐
 export N_jd_whxsign_shopUrl="https://shop.m.jd.com/shop/lottery?shopId=10427934&venderId=10649857" # 活动url
 export N_jd_whxsign_TaskPin="" # 指定运行Pin (不写默认全部)
+export N_jd_whxsign_TaskCookie="" # 指定运行Cookie
 export N_jd_whxsign_Container="JD" # 容器
 export N_jd_whxsign_Thread="10" # 并发的线程数
 export N_jd_whxsign_Black="" # 黑的Cookie
+export N_jd_whxsign_Wait="1" # 间隔时间
+
+# 通用抢券
+export N_jd_coupon_ActivityId="" # 活动Id
+export N_jd_coupon_Key="" # 券key
+export N_jd_coupon_RoleId="" # 券RoleId
+export N_jd_coupon_StrengThenKey="" # 券StrengThenKey
+export N_jd_coupon_TaskPin="" # 执行的Pin
+export N_jd_coupon_TaskCookie="" # 执行的Cookie
+export N_jd_coupon_Container="SCAN" # 容器
+export N_jd_coupon_Num="10" # 抢券次数
+
+# 店铺取关
+export N_jd_unfollow_TaskPin="" # 执行的Pin
+export N_jd_unfollow_TaskCookie="" # 执行的Cookie
+export N_jd_unfollow_Num="10" # 取关次数
 
 # 秒杀签到
-export N_jd_signBeanAct_Container="JD" # 容器
+export N_jd_signBeanAct_Container="JD|Scan" # 容器
+export N_jd_unfollow_Container="JD|Scan" # 容器

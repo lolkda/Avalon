@@ -11,7 +11,7 @@ export N_jd_unfollow_TaskPin="" # 指定运行Pin (不写默认全部)
 export N_jd_unfollow_Container="" # 容器
 """
 
-script_path = path.join(path.dirname(__file__), "script", "n_jd_task_nonc_unfollow.py")
+script_path = path.join(path.dirname(__file__), "script", "n_jd_task_nonc_unfollow.so")
 
 if not path.exists(script_path):
     PrintMethod.error("请检查脚本是否存在")

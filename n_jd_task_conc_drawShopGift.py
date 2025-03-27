@@ -8,8 +8,10 @@ cron: 10 6-23/1 * * *
 new Env('关注有礼');
 export N_jd_drawShopGift_shopUrl="" # 店铺链接
 export N_jd_drawShopGift_TaskPin="" # 指定运行Pin (不写默认全部)
+export N_jd_drawShopGift_TaskCookie="" # 指定运行Cookie
 export N_jd_drawShopGift_Container="" # 容器
 export N_jd_drawShopGift_Thread="" # 并发线程数
+export N_jd_drawShopGift_Wait="" # 间隔时间
 export N_jd_drawShopGift_Black="" # 黑的Cookie
 """
 

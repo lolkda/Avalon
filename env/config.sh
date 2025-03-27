@@ -167,14 +167,14 @@ export N_jd_shopSign_Wait="1" # 间隔时间
 
 # 新农场助力
 export N_jd_Farm_HelpPin="" # 被助力pin
-export N_jd_Farm_HelpCommand="18:/！U0ti92dJnL！ ZH1997 ，↴Jℹ️ng◚諌参与东东农场种树，爆款低至0.01元" # 被助力口令
+export N_jd_Farm_HelpCommand="" # 被助力口令
 export N_jd_Farm_HelpCookie="" # 被助力Cookie
 export N_jd_Farm_Container="JD|Scan" # 容器
 export N_jd_Farm_Black="" # 黑的Cookie
 export N_jd_Farm_Num="" # 助力人数
 
 # 刮刮乐
-export N_jd_whxsign_shopUrl="https://shop.m.jd.com/shop/lottery?shopId=10427934&venderId=10649857" # 活动url
+export N_jd_whxsign_shopUrl="" # 活动url
 export N_jd_whxsign_TaskPin="" # 指定运行Pin (不写默认全部)
 export N_jd_whxsign_TaskCookie="" # 指定运行Cookie
 export N_jd_whxsign_Container="JD" # 容器

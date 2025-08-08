@@ -15,7 +15,7 @@ export N_jd_Happy_Black="" # 黑的Cookie
 export N_jd_Happy_Num="" # 需要多少助力
 """
 
-script_path = path.join(path.dirname(__file__), "script", "n_jd_help_conc_farm.py")
+script_path = path.join(path.dirname(__file__), "script", "n_jd_help_conc_farm.so")
 
 if not path.exists(script_path):
     ScriptLogger().error("请检查脚本是否存在")

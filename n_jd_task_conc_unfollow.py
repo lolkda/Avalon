@@ -11,7 +11,7 @@ export N_jd_unfollow_TaskPin="" # 指定运行Pin (不写默认全部)
 export N_jd_unfollow_Source="" # cookie源
 """
 
-script_path = path.join(path.dirname(__file__), "script", "n_jd_task_conc_unfollow.py")
+script_path = path.join(path.dirname(__file__), "script", "n_jd_task_conc_unfollow.so")
 
 if not path.exists(script_path):
     ScriptLogger().error("请检查脚本是否存在")

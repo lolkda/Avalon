@@ -12,7 +12,7 @@ scriptEnv:
     export check_updatedAt_time 再次转换默认16小时
 """
 
-script_path = path.join(path.dirname(__file__), "script", "n_jd_task_nonc_check.py")
+script_path = path.join(path.dirname(__file__), "script", "n_jd_task_nonc_check.so")
 
 if not path.exists(script_path):
     ScriptLogger().error("请检查脚本是否存在")

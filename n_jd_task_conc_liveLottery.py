@@ -16,7 +16,7 @@ export N_jd_liveLottery_Black="" # 黑的Cookie
 export N_jd_liveLottery_Min="1" # 奖励最小值
 """
 
-script_path = path.join(path.dirname(__file__), "script", "n_jd_task_conc_liveLottery.py")
+script_path = path.join(path.dirname(__file__), "script", "n_jd_task_conc_liveLottery.so")
 
 if not path.exists(script_path):
     ScriptLogger().error("请检查脚本是否存在")

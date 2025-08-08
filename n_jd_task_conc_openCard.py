@@ -16,7 +16,7 @@ export N_jd_openCard_Black="" # 黑的Cookie
 export N_jd_drawShopGift_Wait="" # 间隔时间
 """
 
-script_path = path.join(path.dirname(__file__), "script", "n_jd_task_conc_openCard.py")
+script_path = path.join(path.dirname(__file__), "script", "n_jd_task_conc_openCard.so")
 
 if not path.exists(script_path):
     ScriptLogger().error("请检查脚本是否存在")

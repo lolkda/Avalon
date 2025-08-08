@@ -16,7 +16,7 @@ export N_jd_coupon_Source="" # cookie源
 export N_jd_coupon_Num="" # 抢券次数
 """
 
-script_path = path.join(path.dirname(__file__), "script", "n_jd_task_conc_coupon.py")
+script_path = path.join(path.dirname(__file__), "script", "n_jd_task_conc_coupon.so")
 
 if not path.exists(script_path):
     ScriptLogger().error("请检查脚本是否存在")

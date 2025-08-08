@@ -76,10 +76,10 @@ export openApi_scan_User=""
 export openApi_scan_Password=""
 
 # 日志等级
-export log_level="" # 默认日志等级
+export log_level="20" # 默认日志等级
 
 # 切割符
-export splitString=""
+export splitString="|"
 
 # redis_config
 export Redis_URL="" # redis链接

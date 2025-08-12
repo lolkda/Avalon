@@ -4,7 +4,7 @@ from os import path
 from utils.script_logger import ScriptLogger
 
 """
-cron: 10 6-23/1 * * *
+cron: 0 0 1 1 *
 new Env('店铺取关');
 export N_jd_unfollow_shopUrl="" # 活动url
 export N_jd_unfollow_TaskPin="" # 指定运行Pin (不写默认全部)

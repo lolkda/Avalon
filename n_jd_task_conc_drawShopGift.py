@@ -4,7 +4,7 @@ from os import path
 from utils.script_logger import ScriptLogger
 
 """
-cron: 10 6-23/1 * * *
+cron: 0 0 1 1 *
 new Env('关注有礼');
 export N_jd_drawShopGift_shopUrl="" # 店铺链接
 export N_jd_drawShopGift_TaskPin="" # 指定运行Pin (不写默认全部)

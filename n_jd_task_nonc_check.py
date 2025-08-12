@@ -4,7 +4,7 @@ from os import path
 from utils.script_logger import ScriptLogger
 
 """
-cron: 10 6-23/1 * * *
+cron: 0 0 1 1 *
 new Env('京东CK检测');
 scriptEnv:
     export Check_Source cookie源

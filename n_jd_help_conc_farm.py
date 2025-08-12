@@ -4,7 +4,7 @@ from os import path
 from utils.script_logger import ScriptLogger
 
 """
-cron: 10 6-23/1 * * *
+cron: 0 0 1 1 *
 new Env('新农场助力');
 export N_jd_Happy_HelpType=""  # 活动类型
 export N_jd_Happy_HelpPin="" # 被助力pi

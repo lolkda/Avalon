@@ -4,7 +4,7 @@ from os import path
 from utils.script_logger import ScriptLogger
 
 """
-cron: 10 6-23/1 * * *
+cron: 0 0 1 1 *
 new Env('秒杀签到');
 export N_jd_signBeanAct_Source="" # 容器
 """

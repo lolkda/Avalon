@@ -4,7 +4,7 @@ from os import path
 from utils.script_logger import ScriptLogger
 
 """
-cron: 10 6-23/1 * * *
+cron: 0 0 1 1 *
 new Env("直播抽奖");
 export N_jd_liveLottery_shopUrl="" # 活动链接
 export N_jd_liveLottery_TaskPin="" # 运行指定cookie

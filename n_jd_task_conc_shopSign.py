@@ -4,7 +4,7 @@ from os import path
 from utils.script_logger import ScriptLogger
 
 """
-cron: 10 6-23/1 * * *
+cron: 0 0 1 1 *
 new Env('店铺签到');
 export N_jd_shopSign_Id="" # 活动Id (F8C76481718FA814000365AB85B29892:1000092984:13117366)
 export N_jd_shopSign_TaskPin="" # 指定运行Pin (只能10个)

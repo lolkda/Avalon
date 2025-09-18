@@ -1,0 +1,28 @@
+{
+    "spy_chat_id": [-1001935579778],
+    "spy_push_chat_id": [-1001935579778],
+    "activityId": ["activityId=(\\w+)"],
+    "data":[
+            {"isOpen": true, "name": "M关注有礼", "envName": "M_FOLLOW_SHOP_ARGV", "scriptPath": "utopia/auto/m_jd_follow_shop.js", "queue": true, "taskEnv": ""},
+            {"isOpen": true, "name": "M入会有礼", "envName": "M_OPEN_CARD_ARGV", "scriptPath": "utopia/auto/m_jd_follow_shop.js", "queue": true, "taskEnv": ""},
+            {"isOpen": true, "name": "M店铺签到", "envName": "M_TOKEN_SHOP_SIGN", "scriptPath": "utopia/auto/m_jd_follow_shop.js", "queue": true, "taskEnv": ""},
+            {"isOpen": true, "name": "M店铺刮奖", "envName": "M_GYG_SHOP_ARGV", "scriptPath": "utopia/auto/m_jd_follow_shop.js", "queue": true, "taskEnv": ""},
+            {"isOpen": true, "name": "M加购有礼", "envName": "M_WX_ADD_CART_URL", "scriptPath": "utopia/auto/m_jd_follow_shop.js", "queue": true, "taskEnv": ""},
+            {"isOpen": true, "name": "M盖楼领奖", "envName": "M_WX_BUILD_DRAW_URL", "scriptPath": "utopia/auto/m_jd_follow_shop.js", "queue": true, "taskEnv": ""},
+            {"isOpen": true, "name": "M购物车锦鲤", "envName": "M_WX_CARTKOI_URL", "scriptPath": "utopia/auto/m_jd_follow_shop.js", "queue": true, "taskEnv": ""},
+            {"isOpen": true, "name": "M老虎机抽奖", "envName": "M_WX_CENTER_DRAW_URL", "scriptPath": "utopia/auto/m_jd_follow_shop.js", "queue": true, "taskEnv": ""},
+            {"isOpen": true, "name": "M完善有礼", "envName": "M_WX_COMPLETE_DRAW_URL", "scriptPath": "utopia/auto/m_jd_follow_shop.js", "queue": true, "taskEnv": ""},
+            {"isOpen": true, "name": "M打豆豆", "envName": "M_WX_DADOUDOU_URL", "scriptPath": "utopia/auto/m_jd_follow_shop.js", "queue": true, "taskEnv": ""},
+            {"isOpen": true, "name": "M粉丝互动", "envName": "M_WX_FANS_DRAW_URL", "scriptPath": "utopia/auto/m_jd_follow_shop.js", "queue": true, "taskEnv": ""},
+            {"isOpen": true, "name": "M关注抽奖", "envName": "M_WX_FOLLOW_DRAW_URL", "scriptPath": "utopia/auto/m_jd_follow_shop.js", "queue": true, "taskEnv": ""},
+            {"isOpen": true, "name": "M无线游戏", "envName": "M_WX_GAME_URL", "scriptPath": "utopia/auto/m_jd_follow_shop.js", "queue": true, "taskEnv": ""},
+            {"isOpen": true, "name": "M等级/生日礼包", "envName": "M_WX_LEVEL_BIRTH_URL", "scriptPath": "utopia/auto/m_jd_follow_shop.js", "queue": true, "taskEnv": ""},
+            {"isOpen": true, "name": "M幸运抽奖", "envName": "M_WX_LUCK_DRAW_URL", "scriptPath": "utopia/auto/m_jd_follow_shop.js", "queue": true, "taskEnv": ""},
+            {"isOpen": true, "name": "M积分兑换", "envName": "M_WX_POINT_DRAW_URL", "scriptPath": "utopia/auto/m_jd_follow_shop.js", "queue": true, "taskEnv": ""},
+            {"isOpen": true, "name": "M读秒手速", "envName": "M_WX_SECOND_DRAW_URL", "scriptPath": "utopia/auto/m_jd_follow_shop.js", "queue": true, "taskEnv": ""},
+            {"isOpen": true, "name": "M无线关注", "envName": "M_WX_SHOP_GIFT_URL", "scriptPath": "utopia/auto/m_jd_follow_shop.js", "queue": true, "taskEnv": ""},
+            {"isOpen": true, "name": "M签到有礼", "envName": "M_WX_SHOP_SIGN_URL", "scriptPath": "utopia/auto/m_jd_follow_shop.js", "queue": true, "taskEnv": ""},
+            {"isOpen": true, "name": "M试用有礼", "envName": "M_WX_ZEROTRIAL_URL", "scriptPath": "utopia/auto/m_jd_follow_shop.js", "queue": true, "taskEnv": ""},
+            {"isOpen": true, "name": "M邀请有礼INTERACT", "envName": "M_INTERACT_INVITE_URL", "scriptPath": "utopia/auto/m_jd_wx_interact_invite.js", "queue": true, "taskEnv": ""}
+        ]
+}

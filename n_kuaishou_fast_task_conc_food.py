@@ -8,7 +8,7 @@ cron: 10 6-23/1 * * *
 new Env('快手极速饭补广告');
 export n_kuaishou_fast_card="" # 卡密
 export n_kuaishou_fast_food_source="" # cookie源
-export n_kuaishou_fast_food_run_number_Key="" # 运行次数 (默认1)
+export n_kuaishou_fast_food_run_number="" # 运行次数 (默认1)
 """
 
 script_path = path.join(path.dirname(__file__), "script", "n_kuaishou_fast_task_conc_food.so")

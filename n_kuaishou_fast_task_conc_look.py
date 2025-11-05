@@ -8,7 +8,7 @@ cron: 10 6-23/1 * * *
 new Env('快手极速看广告得金币');
 export n_kuaishou_fast_card="" # 卡密
 export n_kuaishou_fast_look_source="" # cookie源
-export n_kuaishou_fast_look_run_number_Key="" # 运行次数 (默认1)
+export n_kuaishou_fast_look_run_number="" # 运行次数 (默认1)
 
 """
 

@@ -63,17 +63,17 @@ export TG_PROXY_AUTH=""
 export TG_API_HOST=""
 
 # 青龙openApi相关配置
-export openApi_jd_isOpen=""
-export openApi_jd_Name=""
-export openApi_jd_Host=""
-export openApi_jd_User=""
-export openApi_jd_Password=""
+# export openApi_jd_isOpen=""
+# export openApi_jd_Name=""
+# export openApi_jd_Host=""
+# export openApi_jd_User=""
+# export openApi_jd_Password=""
 
-export openApi_scan_isOpen=""
-export openApi_scan_Name=""
-export openApi_scan_Host=""
-export openApi_scan_User=""
-export openApi_scan_Password=""
+# export openApi_scan_isOpen=""
+# export openApi_scan_Name=""
+# export openApi_scan_Host=""
+# export openApi_scan_User=""
+# export openApi_scan_Password=""
 
 # 日志等级
 export log_level="20" # 默认日志等级

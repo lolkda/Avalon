@@ -11,6 +11,7 @@ export n_kuaishou_fast_food_source="" # cookie源
 export n_kuaishou_fast_food_run_number="" # 运行次数 (默认1)
 export n_kuaishou_fast_food_min="" # 最低金币
 export n_kuaishou_fast_food_stop="" # N 次最低金币后停止账号运行 (默认3)
+export n_kuaishou_fast_food_augment="true" # 开启任务追加
 """
 
 script_path = path.join(path.dirname(__file__), "script", "n_kuaishou_fast_task_conc_food.so")

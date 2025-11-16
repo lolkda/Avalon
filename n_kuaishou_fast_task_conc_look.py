@@ -12,7 +12,7 @@ export n_kuaishou_fast_look_run_number="" # 运行次数 (默认1)
 export n_kuaishou_fast_look_min="" # 最低金币
 export n_kuaishou_fast_look_stop="" # N 次最低金币后停止账号运行 (默认3)
 export n_kuaishou_fast_look_augment="true" # 开启任务追加
-export n_kuaishou_fast_look_ex_number"" # 追加次数
+export n_kuaishou_fast_look_ex_number="" # 追加次数
 
 """
 

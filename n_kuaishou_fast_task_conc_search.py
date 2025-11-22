@@ -13,7 +13,7 @@ export n_kuaishou_fast_search_min="" # 最低金币
 export n_kuaishou_fast_search_stop="" # N 次最低金币后停止账号运行 (默认3)
 export n_kuaishou_fast_search_augment="true" # 开启任务追加
 export n_kuaishou_fast_search_ex_number="" # 追加次数
-"""so
+"""
 
 script_path = path.join(path.dirname(__file__), "script", "n_kuaishou_fast_task_conc_search.so")
 

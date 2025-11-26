@@ -5,7 +5,7 @@ from utils.script_logger import ScriptLogger
 
 """
 cron: 10 6-23/1 * * *
-new Env('快手极速饭补广告');
+new Env('快手饭补广告');
 export n_kuaishou_card="" # 卡密
 export n_kuaishou_food_source="" # cookie源
 export n_kuaishou_food_run_number="" # 运行次数 (默认1)

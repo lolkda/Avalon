@@ -11,8 +11,12 @@ export n_kuaishou_fast_box_source="" # cookie源
 export n_kuaishou_fast_box_run_number="" # 运行次数 (默认1)
 export n_kuaishou_fast_box_min="" # 最低金币
 export n_kuaishou_fast_box_stop="" # N 次最低金币后停止账号运行 (默认3)
-export n_kuaishou_fast_box_augment="true" # 开启任务追加
+export n_kuaishou_fast_box_augment="" # 开启任务追加
 export n_kuaishou_fast_box_ex_number="" # 追加次数
+export n_kuaishou_fast_box_augment="" # 开启任务追加
+export n_kuaishou_fast_box_ex_number="" # 追加次数
+export n_kuaishou_fast_box_update_did="" # 低于设定的最少奖励更新did
+export n_kuaishou_fast_box_update_did_min="" # did更新阈值(低于该值更新did)
 """
 
 script_path = path.join(path.dirname(__file__), "script", "n_kuaishou_fast_task_conc_box.so")

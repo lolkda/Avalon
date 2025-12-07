@@ -13,6 +13,8 @@ export n_kuaishou_fast_food_min="" # 最低金币
 export n_kuaishou_fast_food_stop="" # N 次最低金币后停止账号运行 (默认3)
 export n_kuaishou_fast_food_augment="true" # 开启任务追加
 export n_kuaishou_fast_food_ex_number="" # 追加次数
+export n_kuaishou_fast_food_update_did="" # 低于设定的最少奖励更新did
+export n_kuaishou_fast_food_update_did_min="" # did更新阈值(低于该值更新did)
 """
 
 script_path = path.join(path.dirname(__file__), "script", "n_kuaishou_fast_task_conc_food.so")

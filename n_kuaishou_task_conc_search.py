@@ -1,8 +1,7 @@
 import importlib
 import asyncio
 from os import path
-from utils.script_logger import ScriptLogger
-
+from utils.logger import ScriptLogger
 """
 cron: 10 6-23/1 * * *
 new Env('快手搜索广告');

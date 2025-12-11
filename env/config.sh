@@ -78,19 +78,12 @@ export TG_API_HOST=""
 # 日志等级
 export log_level="20" # 默认日志等级
 
-# 切割符
-export splitString="|"
-
-# redis_config
-export Redis_URL="" # redis链接
-export Redis_Pwd="" # redis密码
-
-# req_config (必填参数)
+# 请求配置
 export Max_Connection="1000"
 export Req_Timeout="10"  # 请求超时时间
 export Clear_PROXY="true" # 代理清理
 export Retention_Time="15" # 代理使用时间
-export PROXY_Method="pool" # pool 或 api
+export PROXY_Method="" # pool 或 api
 export PROXY_URL="" # api链接
 
 # Wxpusher
